@@ -1,87 +1,148 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: #f7f7f7;
-    color: #333;
-  }
-  
-  header, footer {
-    text-align: center;
-    padding: 2rem;
-    background: #004b8d;
-    color: white;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background: #ff6600;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 2rem;
+  background: #004b8d;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #ff6600;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main.dual-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  background: white;
+}
+
+.left-panel, .right-panel {
+  flex: 1 1 400px;
+  margin: 1rem;
+  padding: 1rem;
+  background: #e9eff5;
+  border-radius: 8px;
+}
+
+.sample-snaps {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.sample-snaps h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.snap-sample {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #e6f2ff;
+  border-left: 5px solid #004b8d;
+  border-radius: 8px;
+}
+
+.snap-sample h3 {
+  margin-top: 0;
+  color: #004b8d;
+}
+
+.snap-sample ul {
+  padding-left: 1.5rem;
+}
+
+.snap-sample ul li {
+  margin-bottom: 0.5rem;
+}
+
+.leveling-preview {
+  padding: 2rem;
+  background: #eef7ff;
+  text-align: center;
+}
+
+.leveling-preview h2 {
+  margin-bottom: 1rem;
+}
+
+.levels-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.level-card {
+  flex: 1 1 300px;
+  background: #e6f2ff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.level-card h3 {
+  margin-top: 0;
+  color: #004b8d;
+}
+
+.level-card ul {
+  padding-left: 1.5rem;
+}
+
+.level-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.early-access {
+  text-align: center;
+  padding: 2rem;
+  background: #d6f0ff;
+}
+
+.snaplabs-disclaimer {
+  padding: 1.5rem;
+  background: #f2f2f2;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+  margin-top: 2rem;
+}
+
+.snaplabs-disclaimer p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
   main.dual-panel {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    background: white;
-  }
-  
-  .left-panel, .right-panel {
-    flex: 1 1 400px;
-    margin: 1rem;
-    padding: 1rem;
-    background: #e9eff5;
-    border-radius: 8px;
-  }
-  
-  .early-access {
-    text-align: center;
-    padding: 2rem;
-    background: #d6f0ff;
-  }
-  
-  ul {
-    list-style-type: square;
-    padding-left: 1.2rem;
-  }
-  
-  /* ⭐ Move Snap Samples Styling OUTSIDE media query */
-  .sample-snaps {
-    padding: 2rem;
-    background: #f9f9f9;
-  }
-  
-  .sample-snaps h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .snap-sample {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: #e6f2ff;
-    border-left: 5px solid #004b8d;
-    border-radius: 8px;
-  }
-  
-  .snap-sample h3 {
-    margin-top: 0;
-  }
-  
-  .snap-sample ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-  }
-  
-  /* Responsive tweaks */
-  @media (max-width: 768px) {
-    main.dual-panel {
       flex-direction: column;
-    }
   }
   
+  .levels-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
