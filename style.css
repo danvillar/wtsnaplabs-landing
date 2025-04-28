@@ -121,3 +121,52 @@ footer small {
     flex-direction: column;
   }
 }
+
+.snaptracks-section {
+  padding: 2rem;
+  background: #f5faff;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.snaptracks-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.snaptrack {
+  background: #e6f2ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.snaptrack h3 {
+  margin-top: 0;
+  color: #004b8d;
+}
+
+.snaptrack ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.snaptrack li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.example-snap {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #0066cc;
+}
+
+.future-snap {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #999;
+}
+
