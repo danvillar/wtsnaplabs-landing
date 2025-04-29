@@ -203,3 +203,110 @@ footer small {
     font-size: 1rem;
   }
 }
+.snap-feedback-inline {
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid #b0d4ff;
+  color: #333;
+}
+
+.snap-feedback-inline a {
+  color: #0064c8;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.snaplabs-notebook-header {
+  background-color: #003366;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.snap-category-button {
+  background: #e6f2ff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.snap-category-button:hover {
+  background: #cce5ff;
+}
+
+.snap-category-button.active {
+  background: #007bff;
+  color: white;
+}
+
+.snap-sample {
+  background: #e6f2ff;
+  border-left: 5px solid #007bff;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.snap-feedback {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.right-panel {
+  background-color: #f0f4f8;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.snap-filter {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.snap-filter button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #004b8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.snap-filter button:hover {
+  background-color: #003366;
+}
+
+#snap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.snap-card {
+  background: #e9f5ff;
+  padding: 1.5rem;
+  border-left: 5px solid #004b8d;
+  border-radius: 8px;
+}
+
+.snap-card h3 {
+  margin-top: 0;
+  color: #004b8d;
+}
+
+.snap-card ul {
+  padding-left: 1.5rem;
+}
+
+.feedback-note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+

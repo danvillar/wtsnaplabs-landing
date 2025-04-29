@@ -16,12 +16,20 @@
 
 <main class="dual-panel">
   <section class="left-panel">
-    <h2>SnapLabs Notebook (Coming Soon)</h2>
-    <ul>
-      <li>Real-world field challenges</li>
-      <li>Guided Socratic dialogue</li>
-      <li>SnapSuccess Memories</li>
-    </ul>
+    <h2>SnapLabs Notebook</h2>
+    <p>Sharpen your system thinking with real-world Snap challenges.</p>
+
+    <div class="snap-filter">
+      <button data-category="All">All</button>
+      <button data-category="Cooling Tower">Cooling Tower</button>
+      <button data-category="Boiler">Boiler</button>
+      <button data-category="Combo">Combo</button>
+      <button data-category="Power Engineering">Power Engineering</button>
+    </div>
+
+    <div id="snap-container">
+      <!-- Snap cards will be dynamically injected here -->
+    </div>
   </section>
 
   <section class="right-panel">
@@ -34,34 +42,7 @@
   </section>
 </main>
 
-<section class="sample-snaps">
-  <h2>Sample Snap Challenges</h2>
-  <p>Experience real Snap challenges that develop system protectors:</p>
 
-  <div class="snap-sample">
-    <h3>🚰 Snap #001: Flow Switch Stability in Cooling Towers</h3>
-    <p><strong>Scenario:</strong><br>During blowdown, a newly installed cooling tower's flow switch trips intermittently, affecting chemical feed stability.</p>
-    <p><strong>Your Challenge:</strong></p>
-    <ul>
-      <li>How does blowdown impact flow switch verification?</li>
-      <li>What should blowdown and flow switch piping be improved?</li>
-      <li>What system risks increase if this issue is ignored?</li>
-    </ul>
-    <p>✅ Think like a system protector. Save water, chemicals, and equipment.</p>
-  </div>
-
-  <div class="snap-sample">
-    <h3>🔥 Snap #005: Wet Layup Strategy for Seasonal Protection</h3>
-    <p><strong>Scenario:</strong><br>A seasonal shutdown requires protecting newly installed piping and a firetube boiler for 3+ months using solid nitrite layup.</p>
-    <p><strong>Your Challenge:</strong></p>
-    <ul>
-      <li>What failure risks increase during stagnant conditions?</li>
-      <li>How does nitrite inhibitor maintain layup protection?</li>
-      <li>How would you optimize circulation to maintain chemical effectiveness?</li>
-    </ul>
-    <p>✅ Preserve equipment life. Save time, money, and water.</p>
-  </div>
-</section>
 <section class="snaptracks-section">
   <h2>WTSnapLabs SnapTracks</h2>
   <p>Choose your path to real-world system readiness by completing critical Snap challenges in each SnapTrack.</p>
@@ -170,6 +151,7 @@
   <p>WTSnapLabs™ © 2025. All rights reserved.<br>
   <em>"Critical Thinking Saves Systems."</em></p>
 </footer>
+<script =src="snaploader.js"></script>
 
 </body>
 </html>

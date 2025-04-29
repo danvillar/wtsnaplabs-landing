@@ -1,0 +1,30 @@
+[
+    {
+      "id": "001",
+      "title": "Flow Switch Stability in Cooling Towers",
+      "emoji": "💧",
+      "scenario": "During blowdown, a newly installed cooling tower's flow switch trips intermittently, affecting chemical feed stability.",
+      "challenge": [
+        "How does blowdown impact flow switch verification?",
+        "What should blowdown and flow switch piping be improved?",
+        "What system risks increase if this issue is ignored?"
+      ],
+      "outcome": "Think like a system protector. Save water, chemicals, and equipment.",
+      "track": "Cooling Tower"
+    },
+    {
+      "id": "005",
+      "title": "Wet Layup Strategy for Seasonal Protection",
+      "emoji": "🔥",
+      "scenario": "A seasonal shutdown requires protecting newly installed piping and a firetube boiler for 3+ months using solid nitrite layup.",
+      "challenge": [
+        "What failure risks increase during stagnant conditions?",
+        "How does nitrite inhibitor maintain layup protection?",
+        "How would you optimize circulation to maintain chemical effectiveness?"
+      ],
+      "outcome": "Preserve equipment life. Save time, money, and water.",
+      "track": "Boiler"
+    }
+  ]
+  
+  
